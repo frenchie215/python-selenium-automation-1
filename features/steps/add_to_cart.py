@@ -20,12 +20,12 @@ def open_google(context):
 @when('Click on Add to cart button')
 def click_add_to_cart(context):
     context.driver.find_element(*ADD_TO_CART_BTN).click()
-    sleep(2)
+
 
 @when('Click on the first product')
 def click_first_product(context):
     context.driver.find_element(*PRODUCT_PRICE).click()
-    sleep(2)
+
 
 @when('Open Cart page')
 def open_cart_page(context):
